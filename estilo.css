@@ -13,6 +13,15 @@ body{
     border-radius: 6px;
 }
 
+#start:hover, #stop:hover, #reset:hover{
+    background-color: #FFFFFF;
+}
+
+#start:active, #stop:active, #reset:active{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 #start{
     background-color: #47a5b9;
 }
