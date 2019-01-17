@@ -1,1 +1,1 @@
-# Cronometro_JS
+# Cronômetro em HTML/JavaScript
