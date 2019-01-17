@@ -8,14 +8,14 @@
     <title>Cronômetro</title>
 </head>
 <body>
-    <div>
+    <div id="top">
         <h1>Cronômetro em HTML/Javascript</h1>
     </div>
-    <div>
-        <input data-js="field" type="text" value="0"></input>
-        <button data-js="start" class="bt">Start</button>
-        <button data-js="stop" class="bt">Stop</button>
-        <button data-js="reset" class="bt">Reset</button>
+    <div id="content">
+        <input data-js="field" type="text" value="0" id="field"></input>
+        <button data-js="start" class="bt" id="start">Start</button>
+        <button data-js="stop" class="bt" id="stop">Stop</button>
+        <button data-js="reset" class="bt" id="reset">Reset</button>
     </div>
     <script src="cronometro.js"></script>
 </body>

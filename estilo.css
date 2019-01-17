@@ -1,1 +1,51 @@
 /*Estilo*/
+
+body{
+    text-align: center;
+}
+
+.bt{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-color: #000000;
+    border-radius: 6px;
+}
+
+#start{
+    background-color: #47a5b9;
+}
+
+#stop{
+    background-color: #b94747;
+}
+
+#reset{
+    background-color: #4fb947;
+}
+
+#field{
+    background-color: #b9b947;
+    border-color: #000000;
+    border-radius: 6px;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    max-width: 150px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#content, #top{
+    max-width: 500px;
+    text-align: center;
+}
+
+#content{
+    background-color: #e49553;
+    padding: 10px;
+    border-color: #000000;
+    border-width: 5px;
+    border-style: inset;
+}
